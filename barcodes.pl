@@ -1,4 +1,10 @@
 #!/usr/bin/perl
+# Remove \r from line endings:
+# $ dos2unix prices.csv
+# $ dos2unix barcodes.csv
+# Run the script:
+# $ ./barcodes.pl > results.csv
+
 use strict;
 use warnings;
 use v5.22;
